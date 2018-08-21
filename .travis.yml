@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: XiAEQkfhBStHngU5GJwMShJtY8KA/TYnQGRMvZlncFRUhPl02Ha9Tl77rvOFgvdhXCeNf+W+IIqLjTWSCYH+0Xrotyrene50EzEzGxfTDHccnzTMG/9Mb5mZRPHu38PzefnTCOKb4TdHX1UMtU+R5pJWo4+35vKBLb5rp68ueI4jfpv0IU1AgNmUOkQ+cn7ZsXbS1y1algG8AEQAH+2//7Zbv5H6ubxqzjNHtfEKedw2oO54vmFKtP79WbelUhS0L413zPeRC63YLN8BSAD5YzXec6NT0xX2ni1dWeJLJT1k8xLObgk3/h+y2M7pAeF4pO3EC3JPIjJh4tM9MUlMhGx+6lXakZenFeMxcYi/2W2RhNT9LgZSGu5WWDHCqLIWoKliwFyzrrDhkg6UOF5Fcu0V9gd+AbXYVlOZh/EMBFHcFxG6brgpddkV4S7dozSkI+OLQa8llH4jrCO7uWgd1IQn4NRSq2rHJm/2C143wyZDk+a8LRalr85yg/bAz+Nv3lMRTqJ122lgwDB9jcXelckgw7G7RU1+F5lcrE5onC/ROBIfs+PIxn7nL7B9WbkbNSf29MX8mUnS+6id3CerG1LXCuF4s7LkaS4HjvSjos5vj9c7kTu7olyfOSOb0811s05U2epZAlMTWRt7x3J9zOXbqLoD3jhCQCLF7BMWTBQ=
+  app: lit-reef-46646
+  on:
+    repo: aleyesa/blog-app-mongoose-challenge-solution
